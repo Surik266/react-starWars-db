@@ -4,3 +4,7 @@ body{
 .toggle-planet {
   margin-bottom: 1rem;
 }
+
+.row.mb2{
+  margin-top: 50px;
+}
