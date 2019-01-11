@@ -69,7 +69,7 @@ export default class swapiService {
         length:  starship.length,
         crew: starship.crew,
         passengers: starship.passengers,
-        cargoCapacity: starship.cargoCapacity
+        cargoCapacity: starship.cargo_capacity
     }
   }
 
@@ -79,8 +79,8 @@ export default class swapiService {
         id: this._extractId(person.url),
         name: person.name,
         gender: person.gender,
-        birthYear: person.birthYear,
-        eyeColor: person.eyeColor
+        birthYear: person.birth_year,
+        eyeColor: person.eye_color
     }
   }
 
